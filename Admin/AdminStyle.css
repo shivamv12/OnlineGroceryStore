@@ -1,0 +1,25 @@
+.circle2 {
+	height: 100px;
+	width: 100px;
+	margin: 50px auto;
+	border-radius: 100%;
+	box-shadow: 0px 0px 50px black inset;
+	background: radial-gradient(circle at 30px 30px, red, black);
+}
+.outer {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	perspective: 1200px;
+	perspective-origin: 50% 50%;
+}
+.chaya	{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	margin-top: 50px;
+	transform: rotateX(80deg);
+	border-radius: 100%;
+	background: radial-gradient(circle, black -10%, #ccc 70%);
+}
