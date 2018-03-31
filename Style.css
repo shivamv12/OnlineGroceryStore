@@ -1,0 +1,79 @@
+body {
+		margin: 0px auto;
+		padding: 0px;
+		overflow-x: hidden;
+		background-color: #fff!important;
+	}
+	img {
+		padding: 20px;
+		height: 150px;
+	}
+	.form-control {
+		width: 200px;
+	}
+	.navbar {
+		border-radius: 0px;
+	}
+	font {
+		font-size: 2em;
+		font-family: Halvatica;
+		color: #aaa;
+	}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.wrapper {
+	background-color: #1a3333;
+	color: white;
+	font-family: Andalus;
+	text-align: center;
+	font-size: 1em;
+	padding: 1%;
+}
+
+.form1 {
+	padding: 10px;
+	margin: auto;
+	width: 40%;
+	border-radius: 5px;
+	border: 2px solid #333;
+	text-align: center;
+}
+
+.form1 > input {
+	width: 300px;
+	padding: 4px;
+	font-family: Andalus;
+	color: #1a3333;
+	font-size: 1em;
+	text-align: center;
+	text-transform: capitalize;
+	border-radius: 3px;
+	border: 2px solid #aaa;
+}
+
+.form1 > textarea {
+	resize: none;
+	width: 300px;
+	padding: 4px;
+	font-family: Andalus;
+	color: #1a3333;
+	font-size: 1em;
+	text-align: center;
+	text-transform: capitalize;
+	border-radius: 3px;
+	border: 2px solid #aaa;
+}
